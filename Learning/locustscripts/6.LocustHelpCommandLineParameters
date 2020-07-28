@@ -1,0 +1,4 @@
+1. locust --help
+2. Run script without Web Interface
+    locust -f 1.BasicScript.py -u 5 -r 1 -t 10 --headless
+    locust -f 1.BasicScript.py -u 5 -r 1 -t 10 --headless --logfile myLogFiles/mylog.log --loglevel DEBUG
